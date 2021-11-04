@@ -1,46 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Exercício 3.2</title>
     <style>
+      #
+        para
+        fazer
+        #
+        1
+        -
+        Modifique
+        o
+        família
+        do
+        h1
+        para
+        sans-serif
+        #
+        2
+        -
+        Deixe
+        o
+        parágrafo
+        com
+        o
+        font-weight
+        600
+        #
+        3
+        -
+        Modifique
+        o
+        font-size
+        do
+        body
+        para
+        16px
+        #
+        4
+        -
+        Coloque
+        o
+        tamanho
+        do
+        parágrafo
+        com
+        o
+        tamanho
+        de
+        3
+        vezes
+        o
+        padrão
+        do
+        body
+        #
+        5
+        -
+        Explore
+        as
+        propriedades
+        font-style,
+      line-height,
+      text-align
+        e
+        text-decoration
+        #
+        6
+        -
+        Troque
+        a
+        cor
+        de
+        fundo
+        de
+        cada
+        item
+        da
+        lista
+        para
+        a
+        cor
+        correspondente
+        ao
+        texto
+        h1 {
+        font-family: sans-serif;
+      }
 
-        h1{
+      h2 {
+        text-align: center;
+        font-size: 4em;
+        background-color: seashell;
+      }
 
-            font-family: sans-serif;
+      body {
+        font-size: 16px;
+        background-color: rgb(107, 189, 155);
+      }
 
-        }
+      p {
+        font-weight: 600;
+        font-size: 3em;
+      }
 
-        body{
-            font-size: 16px;
-            background-color: darkkhaki;
-        }
+      #primeiroItem {
+        background-color: yellow;
+      }
 
-        p{
-            font-weight: 600;
-            font-size: 3em;
+      #segundoItem {
+        background-color: tomato;
+      }
 
-        }
-            
+      #terceiroItem {
+        background-color: rgba(102, 44, 44, 0.822);
+      }
+
+      #paragrafoUm {
+        font-style: italic;
+        font-family: Tahoma;
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      #paragrafoDois {
+        font-style: oblique;
+        font-family: Tahoma;
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      #paragrafoTres {
+        font-style: italic;
+      }
+      #paragrafoQuatro {
+        font-style: oblique;
+        color: red;
+      }
     </style>
   </head>
 
-
   <body>
-       <h1>Exercícios 3.2</h1>
+    <h1 class="formatoDoTitulo">Exercícios 3.2</h1>
     <p>Qual é a sua cor favorita?</p>
     <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="primeiroItem">
+        Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo
+        Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo Amarelo
+      </li>
+      <li id="segundoItem">
+        Vermelho Vermelho Vermelho Vermelho Vermelho VermelhoVermelho Vermelho
+        Vermelho Vermelho Vermelho
+      </li>
+      <li id="terceiroItem">Marrom</li>
     </ul>
-    <br>
-    <h1>Explorando</h1>
-    <p>Qual é o seu poema favorito?</p>
-    <ul>
-      <li>O amor bate na aorta</li>
-      <li></li>
-      <li></li>
-    </ul>
+    <br />
+    <h1>Explorando - poesia</h1>
+    <h2>O homem as viagens</h2>
+    <br />
+    <div>Autor: Carlos Drummond de Andrade</div>
+    <p id="paragrafoUm">
+      O homem, bicho da Terra tão pequeno chateia-se na Terra lugar de muita
+      miséria e pouca diversão, faz um foguete, uma cápsula, um módulo toca para
+      a Lua pisa na Lua planta bandeirola na Lua experimenta a Lua civiliza a
+      Lua humaniza a Lua.
+    </p>
+    <br />
+    <p id="paragrafoDois">
+      Lua humanizada: tão igual à Terra. O homem chateia-se na Lua. Vamos para
+      Marte – ordena a suas máquinas. Elas obedecem, o homem desce em marte pisa
+      em Marte experimenta coloniza civiliza humaniza Marte com engenho e arte
+      (...).
+    </p>
+    <br />
+    <p id="paragrafoTres">
+      Outros planetas restam para outras colônias. O espaço todo vira
+      Terra-a-terra. O homem chega ao Sol ou dá uma volta só para tever? Não-vê
+      que ele inventa roupa insiderável de viver no sol. Põe o pé e: mas que
+      chato é o sol, falso touro espanhol domado.
+    </p>
+    <br />
+    <p id="paragrafoQuatro">
+      Restam outros sistemas fora do solar a col- onizar. Ao acabarem todos só
+      resta ao homem (estará equipado?) a dificílima dangerosíssima viagem de si
+      a si mesmo: pôr o pé no chão do seu coração experimentar colonizar
+      civilizar humanizar o homem descobrindo em suas próprias inexploradas
+      entranhas a perene, insuspeitada alegria de con-viver.
+    </p>
   </body>
 </html>
