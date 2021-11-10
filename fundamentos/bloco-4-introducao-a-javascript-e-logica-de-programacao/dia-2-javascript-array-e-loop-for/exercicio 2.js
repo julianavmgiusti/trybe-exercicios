@@ -7,6 +7,3 @@ for (i = 0; i < numbers.length; i += 1){
     result += numbers[i]
 }
 console.log(result);
-
-
-
