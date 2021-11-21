@@ -7,4 +7,5 @@ for (let n of numbers) {
         highestValue = n;
     }    
 }
-console.log (highestValue); 
+console.log (highestValue);
+                                                                                         
