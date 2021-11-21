@@ -4,7 +4,7 @@ let highestValue = 0;
 
 for (let n of numbers) {
     if (n > highestValue) {
-        highestValue= n;
+        highestValue = n;
     }    
 }
 console.log (highestValue); 
